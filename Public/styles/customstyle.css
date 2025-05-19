@@ -26,7 +26,7 @@ ul {
 
 /* Header Related */
 .offcanvas {
-    background-image: url(/Public/Resources/indiagate2.jpg);
+    background-image: url(Public/Resources/indiagate2.jpg);
 }
 
 
@@ -47,7 +47,7 @@ ul {
     font-weight: lighter;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url(/Public/Resources/rp3.jpg);
+    background-image: url(Public/Resources/rp3.jpg);
     color: rgb(1, 11, 19);
 }
 

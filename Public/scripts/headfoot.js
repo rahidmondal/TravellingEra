@@ -4,9 +4,8 @@ addEventListener('DOMContentLoaded',(Event) => {
     let header = document.getElementsByClassName("header");
     document.querySelector(".header").innerHTML = `
     <nav class="navbar bg-body-tertiary fixed-top">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="/Public/Pages/home.html">
-    <img src="/Public/Resources/travellingera-low-resolution-logo-color-on-transparent-background.png" alt="TravellingEra Logo" width="50" >
+  <div class="container-fluid">    <a class="navbar-brand" href="home.html">
+    <img src="../Resources/travellingera-low-resolution-logo-color-on-transparent-background.png" alt="TravellingEra Logo" width="50" >
     TravellingEra</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
       <span class="navbar-toggler-icon"></span>
@@ -19,25 +18,24 @@ addEventListener('DOMContentLoaded',(Event) => {
       <div class="offcanvas-body">
         <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="/Public/Pages/home.html">Home</a>
+            <a class="nav-link active" aria-current="page" href="home.html">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link " href="/Public/Pages/PlanADay.html">Plan a Day</a>
+            <a class="nav-link " href="PlanADay.html">Plan a Day</a>
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               Explore 
             </a>
             <ul class="dropdown-menu">
-             <li class="nav-item dropdown"></li>
-              <li><a class="dropdown-item" href="/Public/Pages/Content/redfort.html">Red Fort</a></li>
-                <li><a class="dropdown-item" href="/Public/Pages/Content/indiagate.html">India Gate</a></li>
-                  <li><a class="dropdown-item" href="/Public/Pages/Content/jamamasjid.html">Jama Masjid</a></li>
-                    <li><a class="dropdown-item" href="/Public/Pages/Content/qutubminar.html">Qutub Minar</a></li>
+             <li class="nav-item dropdown"></li>              <li><a class="dropdown-item" href="Content/redfort.html">Red Fort</a></li>
+                <li><a class="dropdown-item" href="Content/indiagate.html">India Gate</a></li>
+                  <li><a class="dropdown-item" href="Content/jamamasjid.html">Jama Masjid</a></li>
+                    <li><a class="dropdown-item" href="Content/qutubminar.html">Qutub Minar</a></li>
               <li>
               </li>
               <hr class="dropdown-divider">
-              <li><a class="dropdown-item" href="/Public/Pages/Explore.html">Explore More Places</a></li>
+              <li><a class="dropdown-item" href="Explore.html">Explore More Places</a></li>
             </ul>
           </li>
         </ul>
